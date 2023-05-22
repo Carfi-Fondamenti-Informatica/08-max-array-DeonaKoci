@@ -1,5 +1,8 @@
-#include <iostream>
-
 int main(){
-  return 0;
+    float y;
+    int x;
+    cout << "inserire dimensione dell'array"<< endl;
+    cin >> x;
+    y=funzione(x);
+    return y;
 }
