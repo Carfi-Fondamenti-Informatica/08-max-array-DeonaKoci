@@ -1,1 +1,1 @@
-
+float funzione(int v);
