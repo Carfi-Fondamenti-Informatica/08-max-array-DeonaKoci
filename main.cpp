@@ -8,6 +8,7 @@ int main(){
     cout << "inserire dimensione dell'array"<< endl;
     cin >> x;
     y=funzione(x);
-    //return y;
+ 
     cout << y;
+    return 0;
 }
