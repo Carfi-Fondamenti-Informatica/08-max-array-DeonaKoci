@@ -1,15 +1,16 @@
-using namespace std;
 #include "lib.h"
-float funzione(int dim){
-    int i;
-    float array[dim];
-    float max=array[dim];
+float funzione(int dim, float array[]){
 
-    
-    max=array[0];
-    for(i=1;i<dim;i++){
-        if(max> array[i]){
-        }else {max=array[i];
+    float max=array[1];
+    for(int i=1; i<=dim ; i++){
+        float array[i];
+        float b= array[i];
+        if( b > max ){
+            max=b;
         }
-    }return max;
+    }
+    return max;
+
 }
+
+
