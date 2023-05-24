@@ -1,19 +1,15 @@
-#include <iostream>
 using namespace std;
 #include "lib.h"
-float funzione(int v){
+float funzione(int dim){
     int i;
-    float array[v];
-    float b=array[v];
-    float r;
-    //cout << "inserire i valori dell'array uno dopo l'altro"<<endl;
-    for(i=0;i<v;i++){
-       // cout<< "inserire il valore n ""+i+""dell'array "<<endl;
-        cin >> array[i];
-    }r=array[0];
-    for(i=1;i<v;i++){
-        if(r> array[i]){
-        }else {r=array[i];
+    float array[dim];
+    float max=array[dim];
+
+    
+    max=array[0];
+    for(i=1;i<dim;i++){
+        if(max> array[i]){
+        }else {max=array[i];
         }
-    }return r;
+    }return max;
 }
