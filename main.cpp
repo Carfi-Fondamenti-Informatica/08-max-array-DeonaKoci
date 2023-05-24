@@ -1,3 +1,7 @@
+#include <iostream>
+#include "lib.h"
+using namespace std;
+
 int main(){
     float y;
     int x;
