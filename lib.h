@@ -1,1 +1,1 @@
-float funzione(int v);
+float funzione(int dim, float array[]);
