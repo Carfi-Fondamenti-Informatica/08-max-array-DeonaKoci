@@ -1,14 +1,21 @@
 #include <iostream>
 #include "lib.h"
 using namespace std;
-
 int main(){
-    float y;
-    int x;
-    cout << "inserire dimensione dell'array"<< endl;
-    cin >> x;
-    y=funzione(x);
- 
-    cout << y;
-    return 0;
+    int dim;
+    float array[dim];
+    
+    //cout << "inserire dimensione dell'array"<< endl;
+    cin >> dim;
+
+    //cout << "inserire i valori dell'array uno dopo l'altro"<<endl;
+    for(int i=0;i<dim;i++){
+        //cout<< "inserire il valore n ""+i+ ""dell'array "<<endl;
+        cin >> array[i];
+    }
+   float max=funzione(dim);
+    //return y;
+    cout << max;
+
+return 0;
 }
